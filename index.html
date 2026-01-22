@@ -4,51 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COSMIC SITES</title>
-  <style>
+<style>
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
-      color: white;
-      text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
-    .header {
-      padding: 20px;
+
+    .container {
+        text-align: center;
+        border: 2px solid #fff;
+        padding: 40px;
+        border-radius: 12px;
+        width: 350px;
+        background-color: #111;
     }
-    .discord-button {
-      background-color: #8e44ad;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    .site-section {
-      margin: 30px auto;
-      max-width: 400px;
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 20px;
-      border-radius: 10px;
-    }
+
     .site-title {
-      font-size: 24px;
-      margin-bottom: 10px;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #fff;
     }
-    .site-description {
-      font-size: 16px;
-      margin-bottom: 20px;
-    }
+
     .go-button {
-      background-color: #3498db;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: 0.3s;
+        width: 100%;
     }
-  </style>
+
+    .go-button:hover {
+        background-color: #ccc;
+    }
+</style>
+
 </head>
 <body>
   <div class="header">
@@ -74,4 +75,5 @@
     <button class="go-button">GO TO SITE</button>
   </div>
 </body>
+
 </html>
